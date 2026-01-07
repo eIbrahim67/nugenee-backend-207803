@@ -1,0 +1,31 @@
+export declare class CreateCourseDto {
+    id: string;
+    title: string;
+    titleAr?: string;
+    description: string;
+    descriptionAr?: string;
+    overview: string;
+    overviewAr?: string;
+    level: string;
+    levelAr?: string;
+    duration: string;
+    durationAr?: string;
+    schedule?: string;
+    scheduleAr?: string;
+    skills?: string[];
+    skillsAr?: string[];
+    prerequisites?: string[];
+    prerequisitesAr?: string[];
+    tools?: string[];
+    objectives?: string[];
+    objectivesAr?: string[];
+    certification?: string;
+    certificationAr?: string;
+    targetAudience?: string[];
+    targetAudienceAr?: string[];
+    color?: string;
+    categoryId: string;
+    instructorId: string;
+    active?: boolean;
+    icon?: string;
+}

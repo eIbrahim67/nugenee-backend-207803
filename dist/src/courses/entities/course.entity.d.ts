@@ -1,0 +1,35 @@
+import { Category } from '../../categories/entities/category.entity';
+import { User } from '../../users/entities/user.entity';
+export declare class Course {
+    id: string;
+    title: string;
+    titleAr: string;
+    description: string;
+    descriptionAr: string;
+    overview: string;
+    overviewAr: string;
+    level: string;
+    levelAr: string;
+    duration: string;
+    durationAr: string;
+    schedule: string;
+    scheduleAr: string;
+    skills: string[];
+    skillsAr: string[];
+    prerequisites: string[];
+    prerequisitesAr: string[];
+    tools: string[];
+    objectives: string[];
+    objectivesAr: string[];
+    certification: string;
+    certificationAr: string;
+    targetAudience: string[];
+    targetAudienceAr: string[];
+    color: string;
+    categoryId: string;
+    category: Category;
+    instructorId: string;
+    instructor: User;
+    active: boolean;
+    icon: string;
+}
